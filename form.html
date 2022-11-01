@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <div class="navlogo">
+      <nav>
+        <img src="travel.jpg" alt="logo" height="100" />
+      </nav>
+    </div>
+    <div class="nav">
+      <ul class="items">
+        <li class="item"><a href="">Home</a></li>
+        <li class="item"><a href="">About-Services</a></li>
+        <li class="item"><a href="">Reach-Us</a></li>
+      </ul>
+    </div>
+    <h1>
+      "A journey of a thousand miles begins with a single steps", There’s a
+      sunrise and a sunset every single day, and they’re absolutely free. Don’t
+      miss so many of them !!
+    </h1>
+    <h2>
+      Hey there, are you looking for the best ambiance to enjoy your vacation,
+      then you are at the wright page. Please fill out this travel request form
+      to get the best memorable days of your life. We'll provide the exact
+      things which you are looking for a trip...
+    </h2>
+    <div class="form">
+      <form action="form.php" method="get">
+        <div>
+          <label for="fname">First Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="enter your f-name in capital"
+            required
+          />
+          <label for="lname">Last Name:</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="enter your l-name in capital"
+            required
+          /><br /><br />
+        </div>
+        <div>
+          <label for="num">Mob No.</label>
+          <input
+            type="number"
+            name="num"
+            id="num"
+            placeholder="contact number"
+            required
+          /><br /><br />
+        </div>
+        <div>
+          <label for="mail">Email Address:</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="email id"
+            required
+          /><br /><br />
+        </div>
+        <div>
+          <label for="age">Age: </label>
+          <input type="number" name="age" id="age" min="1" max="100" step="1" />
+        </div>
+        <br />
+        <div>
+          Gender:-<br />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" /><br /><br />
+        </div>
+        <div>
+          <label for="city">City you live:</label>
+          <input type="text" name="city" id="city" required/>
+        </div>
+        <br />
+        <div>
+          <label for="budget">What is your budget range =</label>
+          <select name="budget" id="budget">
+            <option value="25k-35k">25k-35k</option>
+            <option value="35k-45k">35k-45k</option>
+            <option value="35k-45k">45k-55k</option>
+            <option value="35k-45k">60k-1lac</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <input type="checkbox" name="final" id="final" />
+          <label for="final">Are you sure for the information ?</label>
+        </div>
+        <br />
+        <div>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <pre></pre>
+    <div class="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/h_xjfqrFl7o"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <h3><mark>Thanks for visiting, hope you like our page.</mark></h3>
+  </body>
+</html>

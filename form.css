@@ -1,0 +1,68 @@
+.nav {
+  background-color: black;
+}
+
+.navlogo {
+  float: left;
+  overflow: auto;
+}
+
+.items {
+  color: white;
+  list-style-type: none;
+  padding: 30px;
+  text-align: right;
+  word-spacing: 20px;
+}
+
+.item {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  font-size: 2em;
+  color: green;
+}
+
+a:active {
+  font-size: 2em;
+}
+
+.form {
+  border-style: double;
+  border-width: 5px;
+  padding: 25px;
+  word-spacing: 3px;
+}
+
+h1 {
+  font-style: italic;
+  color: orchid;
+  text-align: center;
+  text-shadow: 1px 1px;
+}
+
+h2 {
+  color: darkslateblue;
+  text-align: center;
+}
+
+.video {
+  float: right;
+}
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
